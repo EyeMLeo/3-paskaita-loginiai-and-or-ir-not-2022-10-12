@@ -30,3 +30,14 @@ if (members >=5) {
  }
 
  console.log(memberstype);
+
+let number2=27;
+let numberRemain=(number2/2) % 1;
+ console.log(numberRemain);
+
+ if (numberRemain===0) {
+    console.log("lyginis skaicius");
+ } else{
+    console.log("nelyginis skaicius");
+ }
+
