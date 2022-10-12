@@ -91,3 +91,13 @@ console.log(`is phone user ${isIphoneUser}`);
 
 // Sukurk variable 'car', kuris bus lygus kažkokiam automobilio prekės ženklui. Sukurk if-else (arba switch), kuris pasakys ar tas brand'as priklauso VW Group, ar BMW Group, ar nei vienam. VW group priklauso: VW, Audi, Bentley, Bugatti, Lamborghini, Porsche. BMW group priklauso: BMW, Mini, Rolls-Royce.
 
+let car="asd"
+
+
+if (car==="VW" ||car==="Audi"|| car==="Bentley" || car==="Bugatti"|| car==="Lamborghini"|| car==="Porsche") {
+    console.log("brand'as priklauso VW Group");
+}else if (car==="BMW"|| car==="Mini"|| car==="Rolls-Royce") {
+    console.log("brand'as priklauso BMW Group");
+} else {
+    console.log("nepriklauso nei bmw nei vw");
+}
